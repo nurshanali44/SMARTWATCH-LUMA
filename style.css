@@ -68,3 +68,179 @@ body {
   background-color: #414756;
 }
 /*end header section */
+/*hero*/
+.hero-section {
+  background-color: #f7f6f2;
+  background-image: url(./images/background.png);
+  background-repeat: repeat;
+  background-size: 24px 24px;
+  width: 100%;
+  min-height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+@keyframes shoow {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  50% {
+    transform: translateX(-54%);
+  }
+
+  100% {
+    transform: translateX(-46%);
+  }
+}
+
+.hero-text {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(50%);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  animation: shoow 6s ease-in-out infinite alternate;
+}
+
+.hero-text span {
+  font-size: 300px;
+  font-weight: 920;
+  letter-spacing: 10px;
+}
+
+.hero-text .portion-1 {
+  color: #e440a8;
+}
+.hero-text .portion-2 {
+  color: #b253d3;
+}
+.hero-img {
+  position: absolute;
+  z-index: 2;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 550px;
+}
+
+.hero-img-1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-text-left {
+  position: absolute;
+  left: 20%;
+  bottom: 100px;
+  z-index: 3;
+  text-align: left;
+}
+
+.hero-text-left span {
+  display: block;
+  font-size: 18px;
+  color: #8a2be2;
+  margin-bottom: 8px;
+}
+.hero-text-left h4 {
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+}
+
+.hero-text-right {
+  position: absolute;
+  right: 20%;
+  bottom: 100px;
+  z-index: 3;
+  text-align: right;
+}
+
+.hero-text-right span {
+  display: block;
+  font-size: 18px;
+  color: #8a2be2;
+  margin-bottom: 8px;
+}
+.hero-text-right h4 {
+  font-size: 20px;
+  color: #000000;
+  text-align: right;
+}
+
+@keyframes Form-Left {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.hero-title-left {
+  animation: Form-Left 1.3s ease-out 0.4s forwards;
+}
+
+@keyframes Form-Right {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.hero-title-right {
+  animation: Form-Right 1.3s ease-out 0.6s forwards;
+}
+.play-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 55px;
+  left: 50%;
+  border: 2px solid #ffff;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 18px 25px;
+  background-color: #f7f6f2;
+  color: #2b2b2b;
+  z-index: 4;
+  font-size: 15px;
+  transition: 0.3s ease;
+  transform: translateX(-50%);
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.play-btn:hover {
+  background-color: #000000;
+  color: #f7f6f2;
+}
+
+.video-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8b5cf6;
+  margin: 0 5px;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  font-size: 15px;
+  border: 4px solid #8b5cf6;
+  background-color: #f7f6f2;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+}
+/*نهاية قسم hero*/
