@@ -412,3 +412,90 @@ body {
   font-weight: bold;
 }
 /*نهاية overview */
+
+/*features */
+.features-section {
+  width: 100%;
+  padding: 60px 8% 50px 8%;
+  background-color: #dae7f5;
+}
+.features-top {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.features-top-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+}
+
+.top-title-number {
+  font-size: 90px;
+  font-weight: 900;
+  color: #8a2be2;
+}
+
+.features-text {
+  font-size: 38px;
+  font-weight: 700;
+  color: #2b2b2b;
+  line-height: 1.2;
+  text-align: left;
+}
+.features-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 25px;
+  margin-bottom: 55px;
+}
+.features-card {
+  text-align: center;
+  padding: 18px;
+}
+
+.features-icon {
+  font-size: 35px;
+  color: #8a2be2;
+  margin-bottom: 18px;
+}
+.features-card-title {
+  font-size: 18px;
+  font-weight: 650;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.feature-cadr-text {
+  font-size: 12px;
+  color: #4b5563;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.features-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+.features-btn-box {
+  color: #8a2be2;
+  background-color: #000000;
+  padding: 5px 12px;
+  border-radius: 15px;
+  letter-spacing: 0.8px;
+}
+.features-btn-text {
+  font-size: 18px;
+  color: #2b303a;
+  margin: 0;
+}
+.features-more {
+  text-decoration: underline;
+  font-weight: 650;
+}
+
+/* نهاية  features*/
