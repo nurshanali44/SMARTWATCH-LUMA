@@ -639,3 +639,143 @@ body {
   color: #8a2be2;
 }
 /* نهاية  technology */
+
+/*desgin*/
+.desgin-section {
+  width: 100%;
+  background-color: #070c13;
+  padding-top: 60px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  color: #fff;
+}
+.desgin-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: border-box;
+}
+.desgin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-image: url(./images/hero\ img\ 2\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 42px;
+}
+@keyframes Zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.desgin-title {
+  font-size: 55px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.15;
+  text-align: center;
+  color: #fff;
+  animation: Zoom 5s ease-in-out infinite;
+}
+@keyframes Swipe-Gallery {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.desgin-cards {
+  width: 100%;
+  overflow: hidden;
+  padding: 25px 0;
+}
+.desgin-cards-content {
+  display: flex;
+  gap: 50px;
+  width: max-content;
+  animation: Swipe-Gallery 20s infinite;
+}
+
+.desgin-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 166px;
+  flex-shrink: 0;
+}
+.desgin-img {
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid rgba(240, 250, 250, 0.12);
+  margin-bottom: 15px;
+}
+
+.desgin-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.desgin-card h3 {
+  font-size: 15px;
+  font-weight: 750;
+  margin: 0;
+  color: #8b5cf6;
+}
+
+.desgin-card p {
+  font-size: 14px;
+  color: #fff;
+}
+.desgin-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  background-color: #555;
+  padding: 25px 4%;
+  margin-top: 40px;
+  margin-bottom: 0;
+  width: 100%;
+  border-top: 1px solid rgba(240, 240, 240, 0.06);
+  border-bottom: 1px solid rgba(240, 240, 240, 0.06);
+}
+.desgin-line {
+  width: 100px;
+  height: 1px;
+
+  background-color: rgba(240, 240, 240, 0.3);
+}
+
+.desgin-btn-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  white-space: nowrap;
+}
+.desgin-btn-box i {
+  font-size: 30px;
+}
+.desgin-btn-box span {
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 1.7px;
+}
+
+/*نهاية design */
