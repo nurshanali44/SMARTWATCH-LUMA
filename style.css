@@ -884,3 +884,119 @@ body {
   color: #8a2be2;
 }
 /*نهاية review */
+
+/*قسم pricing*/
+.pricing-section {
+  background-color: #f7f6f2;
+  text-align: center;
+  padding: 60px 15px 40px 15px;
+}
+.pricing-title {
+  margin-bottom: 40px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #2b2b2b;
+}
+
+.color-selection {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 55px;
+}
+.color-watch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.watch-img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease;
+}
+
+.color-watch:hover .watch-img {
+  transform: translateY(-8px);
+}
+.color {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4 8px rgba(0, 0, 0, 0.12);
+}
+.rose-gold {
+  background-color: #b76e79;
+}
+
+.blue {
+  background-color: #3b82f6;
+}
+
+.silver {
+  background-color: #d1d5db;
+}
+.space-grey {
+  background-color: #4b5563;
+}
+.color-name {
+  font-size: 15px;
+  font-weight: 550;
+  color: #4b5563;
+}
+.pricing-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.order-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.price {
+  background-color: #2b303a;
+  color: #ffffff;
+  padding: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.purchase-now {
+  background-color: #b253d3;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.purchase-now:hover {
+  background-color: #eb1455;
+}
+.delivery {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 550;
+  color: #4b5563;
+  gap: 10px;
+}
+.delivery .dot {
+  color: #b253d3;
+  font-size: 18px;
+}
+/*نهاية pricing */
